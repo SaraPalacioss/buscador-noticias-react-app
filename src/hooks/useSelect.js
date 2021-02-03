@@ -2,10 +2,10 @@ import React, {useState} from 'react';
 
 const useSelect = (stateInicial, opciones) => {
 
-    //state del custom hook
+    // state del custom hook
     const [state, actualizarState] = useState(stateInicial);
 
-    const SelectNoticias = () => (
+    const SelectNoticias =  () => (
         <select
             className="browser-default"
             value={state}
